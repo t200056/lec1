@@ -9,7 +9,7 @@ st.subheader('오늘의 주제: _______')
 st.write('음수?? ______않아!') 
 
 # 여러 개의 열(문단)을 생성
-col1, col2 = st.columns(2)       
+#col1, col2 = st.columns(2)       
 # 왼쪽 문단
 #with col1:
        st.subheader('**개념정리')
