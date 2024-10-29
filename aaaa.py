@@ -12,7 +12,7 @@ with col1:
        st.write('양수: 0보다 큰 수')
        st.write('음수: 0보다 작은 수, (-)부호가 붙음')
 with col2:
-       st.image( 'chart (1).png' )              # 이미지 불러오기
+       st.image( '수학이미지.png' )              # 이미지 불러오기
 
 a = st.number_input('수를 입력하세요', min_value=0)   # 사용자의 입력을 받아서 a에 저장하기(최소값은 0)
 
