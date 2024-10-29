@@ -1,4 +1,5 @@
-import streamlit as st      # streamlit 라이브러리 불러오기
+# streamlit 라이브러리 불러오기
+import streamlit as st      
 
 # 제목 쓰기
 st.title('동생아 수학 공부하자!')  
