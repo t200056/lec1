@@ -1,12 +1,7 @@
 #스트림릿 불러오기
 import streamlit as st
 
-#  기계학습 모델 파일 로드(모델명 : logistic_regression_model.pkl)
-import joblib
-model = joblib.load('logistic_regression_model.pkl')
-
-# 만든 모델로 테스트 데이터에 대해 예측하기
-st.title('합불분류 지능 에이전트')
+st.title('1합불분류 지능 에이전트')
 
 col1, col2 = st.columns(2)
 
@@ -26,6 +21,10 @@ st.write('**** 공부시간을 입력하세요.. 인공지능이 당신의 합�
 
 # 사용자 입력
 a = st.number_input("공부시간", value=0)
+
+#  기계학습 모델 파일 로드(모델명 : logistic_regression_model.pkl)
+import joblib
+model = joblib.load('logistic_regression_model.pkl')
 
 # 예측 버튼 만들기
 if st.button("인공지능의 분류 결과"):
