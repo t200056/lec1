@@ -1,7 +1,7 @@
 # streamlit 라이브러리 불러오기
 import streamlit as st
 
-st.title('수학 학습 보조 프로그램')                       # 제목 쓰기
+st.title('수학 ㅁㅇㄻㄴㅇ학습 보조 프로그램')                       # 제목 쓰기
 
 st.subheader('양수음수 판별기')         # 부제목 쓰기
 
