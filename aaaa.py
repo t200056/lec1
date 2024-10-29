@@ -17,13 +17,15 @@ with col1:
 with col2:
        st.image('수학이미지.png')                  # 이미지 불러오기
 '''
-#a = st.number_input('수를 입력하세요', value=0)   # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
 
-#if st.button("양수일까 음수일까?"):
+a = st.number_input('수를 입력하세요', value=0)   # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
+'''
+if st.button("양수일까 음수일까?"):
        if a > 0:
               st.write('양수입니다')
        elif a<0:
               st.write('음수입니다')
        else:
               st.write('0입니다')
+'''
 
