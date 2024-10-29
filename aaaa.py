@@ -52,11 +52,11 @@ st.write('**** 공부시간을 입력하세요.. 인공지능이 당신의 합�
 a = st.number_input("공부시간", min_value=0)
 
 # 예측 버튼 만들기
-#if st.button("인공지능의 분류 결과"):
-#        input_data = [[a]]
-    #    p = model.predict(input_data)
-         # 단순 조건문으로 예측 결과 출력
-  #      if p[0] == 1:
-         #     st.success('인공지능 분류 결과는 합격입니다........... 그러나, 방심은 금물입니다!')
-#        else:
-#              st.success('인공지능 분류 결과는 불합격입니다.......... 더 열심히 공부하면 됩니다!')
+if st.button("인공지능의 분류 결과"):
+       input_data = [[a]]
+       p = model.predict(input_data)
+         # 단순 조건문으로 예측 결과 출력      
+       if p[0] == 1:
+              st.success('인공지능 분류 결과는 합격입니다........... 그러나, 방심은 금물입니다!')
+       else:
+              st.success('인공지능 분류 결과는 불합격입니다.......... 더 열심히 공부하면 됩니다!')
