@@ -3,9 +3,9 @@ import streamlit as st
 
 st.title('동생아 수학 공부하자!')  # 제목 쓰기
 
-st.subheader('양수와 음수') # 부제목 쓰기
+st.subheader('오늘의 주제 : 양수와 음수') # 부제목 쓰기
 
-st.write('음수를 아시나요?')                  # 본문 쓰기
+st.write('음수?? 어렵지 않아!')                  # 본문 쓰기
 
 col1, col2 = st.columns(2)       # 여러 개의 열(문단)을 생성
 with col1:
