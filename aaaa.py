@@ -16,7 +16,7 @@ with col1:
 with col2:
        st.image( '수학이미지.png' )              # 이미지 불러오기
 
-a = st.number_input('수를 입력하세요', value =0.0)   # 사용자의 입력을 받아서 a에 저장하기(최소값은 0)
+a = st.number_input('수를 입력하세요', value = 0)   # 사용자의 입력을 받아서 a에 저장하기(최소값은 0)
 
 if a > 0:
        st.write('양수입니다')
